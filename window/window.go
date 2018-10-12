@@ -7,12 +7,8 @@ import (
 	"github.com/fyne-io/fyne/widget"
 )
 
-func NewApp() fyne.App {
-	return fyne.NewAppWithDriver(desktop.NewEFLDriver())
-}
-
 func ShowApp() {
-	app := NewApp()
+	app := desktop.NewApp()
 
 	top := widget.NewEntry()
 	bottom := widget.NewEntry()

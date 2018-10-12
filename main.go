@@ -1,6 +1,6 @@
 package main
 
-import "github.com/JanGalek/firstProject/window"
+import "github.com/JanGalek/goFirstProject/window"
 
 func main() {
 	window.ShowApp()
